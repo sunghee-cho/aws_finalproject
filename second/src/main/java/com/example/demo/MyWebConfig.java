@@ -11,7 +11,7 @@ public class MyWebConfig implements WebMvcConfigurer {
 	
 	//for linux
 	static final public String savePath = "/usr/upload/";
-
+//수정
 //	<resources mapping="/upload/**" location="file:///c:/upload/" />
 
 	@Override

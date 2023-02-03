@@ -28,7 +28,7 @@ public class UploadController {
 		// c:/upload 폴더에 업로드했던 이름 그대로 저장
 		// 저장한 결과 객체를 뷰 전달
 		//uploadprocess.jsp
-		String savePath = MyWebConfig.savePath;;
+		String savePath = MyWebConfig.savePath;
 		MultipartFile mf1 = dto.getFile1();
 		//파일명1 추출
 		String filename1 = mf1.getOriginalFilename();

@@ -31,7 +31,7 @@ public class DownloadController {
 	public void filedownload(String onefile, HttpServletResponse response)
 	throws IOException{
 		//onefile 이라는 이름의 파일을 C:/UPLOAD 찾는다
-		File f = new File("c:/upload/" + onefile);
+		File f = new File(MyWebConfig.savePath + onefile);
 		int f_length = (int)f.length();//byte단위
 		
 		//응답할 컨텐츠 다운로드파일

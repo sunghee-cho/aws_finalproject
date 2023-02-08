@@ -37,5 +37,7 @@ src/main/java/dbsecure/JasyptDB.java
 src/main/java/dbsecure/JasyptConfig_backup.java
 src/main/resources/application_backup.properties
 src/main/java/dbsecure/DBSecureTest.java
-
+src/main/java/finalproject/
+src/main/java/project/
+team.txt
 

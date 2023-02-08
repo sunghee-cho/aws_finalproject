@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>나의 회원관리 프로그램입니다.(수정)</h1>
+<h1>나의 회원관리 프로그램입니다.(수정-수정)</h1>
 <h3>
 	<ul>
 		<li><a href="<%=request.getContextPath()%>/login">로그인하러 가기</a></li>
